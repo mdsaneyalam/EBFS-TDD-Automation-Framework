@@ -4,5 +4,8 @@ public interface HomePageProperties {
 	
 	public final String LINK_POPULAR = "homefeatured"; 
 	public final String LINK_BEST_SELLER = "blockbestsellers"; 
+	public final String LINK_SIGN_IN = "login";
+	
+	
 
 }

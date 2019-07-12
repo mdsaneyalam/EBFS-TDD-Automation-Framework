@@ -26,6 +26,14 @@ public class HomePage {
 			
 	}
 	
+	public static WebElement lnk_SignIn(WebDriver driver) {
+		
+		element = driver.findElement(By.className(HomePageProperties.LINK_SIGN_IN));
+		
+		return element;
+		
+}
+	
 	
 	
 	
